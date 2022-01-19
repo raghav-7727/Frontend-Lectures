@@ -5,13 +5,67 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bootstrap Website</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
 </head>
 <body>
 
   <!-- Navbar -->
+  <nav class="navbar navbar-expand-md navbar-light">
+    <div class="container-xxl">
+      <a href="#" class="navbar-brand">
+        <img src="/assets/l4o-logo.png" alt="logo"/>
+      </a>
+    
+    <!-- Toggler Button -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
+    <div id="navbarNavDropdown" class="collapse navbar-collapse justify-content-end align-center">
+      <ul class="navbar-nav">
+        <li class="navbar-item">
+          <a href="#about" class="nav-link">About L4o</a>
+        </li>
+        <li class="navbar-item">
+          <a href="#reviews" class="nav-link">Reviews</a>
+        </li>
+        <li class="navbar-item">
+          <a href="#get-in-touch" class="nav-link">Get in touch</a>
+        </li>
+        <li class="navbar-item">
+          <a href="#about" class="nav-link btn-md btn-primary ms-md-3 text-white d-inline-block p-2">
+            Register Now
+          </a>
+        </li>
+      </ul>
+    </div>
+    </div>
+  </nav>
 
   <!-- Title Image & Introduction Text -->
+
+  <section id="title-image">
+    <div class="container-lg">
+    <div class="row justify-content-center align-items-center">
+      <div class="col-md-5">
+      <div class="text-center text-md-start">
+       <div class="display-3">
+         GURANTEED JOB PAYEIN
+        </div>
+        <div style="font-size: 18px;" class="text-muted my-3">
+          Apni Bhasha Mein Seekhein
+        </div>
+        <button class="btn btn-lg btn-primary fs-3 px-4">
+          Apply Now
+        </button>
+      </div> 
+      </div>
+      <div class="col-md-7 text-center my-5 my-md-auto">
+        <img class="img-fluid" src="/assets/hero-banner.png" alt="image hero"/>        
+      </div>
+    </div>
+  </div>
+  </section>
 
   
   <!-- Top Courses -->
