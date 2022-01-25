@@ -1,0 +1,102 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Lecture 2</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+<body>
+  <!-- basic buttons -->
+  <h2>Buttons</h2>
+  <button class="btn btn-primary">Primary btn</button>
+  <button class="btn btn-secondary">Secondary btn</button>
+  <button class="btn btn-success">Success btn</button>
+  <button class="btn btn-danger">Danger btn</button>
+  <button class="btn btn-warning">Warning btn</button>
+
+  <!--to give button look like link -->
+  <button class="btn btn-link">Link</button>
+
+  <!-- anchor tags as buttons -->
+  <a href="#" class="btn btn-primary" type="button">Link Primary button</a>
+
+  <!-- Input as a button -->
+  <input type="button" value="input" class="btn btn-primary">
+
+  <!-- button sizes -->
+  <h2>Button sizes</h2>
+  <button class="btn-primary btn-lg">Primary Large button</button>
+  <button class="btn-secondary btn-lg">Secondary Large button</button>
+  <br/>
+    <!--for disabled the button use disable button property  -->
+  <button class="btn-primary btn-sm">Primary Small button</button>
+  <button class="btn-secondary btn-sm">Secondary Small button</button>
+
+  <!-- outlined styles -->
+  <h2>Button Styles</h2>
+  <button class="btn btn-outline-primary">Outline Primary</button>
+  <button class="btn btn-outline-dark">Outline Dark</button>
+  <button class="btn btn-outline-secondary">Outline Secondary</button>
+  <button class="btn btn-outline-danger">Outline Danger</button>
+
+  <!-- button groups -->
+  <h2>Button Groups</h2>
+  <div class="btn-group">
+    <button class="btn btn-primary">Left</button>
+    <button class="btn btn-secondary">Center</button>
+    <button class="btn btn-danger">Right</button>
+  </div>
+
+  <!-- Outline Styled button Groups -->
+  <div class="btn-group">
+    <button class="btn btn-outline-primary">Left</button>
+    <button class="btn btn-outline-success">center</button>
+    <button class="btn btn-outline-dark">Right</button>
+  </div>
+  <br/>
+<!-- Button Check boxes -->
+  <div style="margin-top: 40px;" class="btn-group" role="group">
+    <input type="checkbox" class="btn-check" id="btncheck1"/>
+    <label for="btncheck1" class="btn btn-outline-primary">Left Input</label>
+
+    <input type="checkbox" class="btn-check" id="btncheck2"/>
+    <label for="btncheck2" class="btn btn-outline-dark">center Input</label>
+
+    <input type="checkbox" class="btn-check" id="btncheck3"/>
+    <label for="btncheck3" class="btn btn-outline-danger">Right Input</label>
+  </div>
+
+  <!-- Radio buttons -->
+  <div style="margin-top: 40px;" class="btn-group" role="group" aria-label="Basic radio toggle button group">
+    <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+    <label class="btn btn-outline-primary" for="btnradio1">Radio 1</label>
+  
+    <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+    <label class="btn btn-outline-primary" for="btnradio2">Radio 2</label>
+  
+    <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+    <label class="btn btn-outline-primary" for="btnradio3">Radio 3</label>
+  </div>
+
+  <!-- Button Nesting dropdown toggle -->
+  <div style="margin-top: 40px;" class="btn-group">
+    <button class="btn btn-primary">1</button>
+    <button class="btn btn-primary">2</button>
+
+    <div class="btn-group">
+      <button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Dropdown</button>
+      <ul class="dropdown-menu">
+        <li>
+          <a href="#" class="dropdown-item">Option 1</a>
+        </li>
+        <li>
+          <a href="#" class="dropdown-item">Option 2</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>
